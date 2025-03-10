@@ -9,7 +9,7 @@ app.set('views', './views');
 app.use(express.static(path.join(__dirname, 'public')));
 // Middleware to receive email
 
-
+//just a comment
   // Example route
   app.get('/', (req, res) => {
     res.render('index');
